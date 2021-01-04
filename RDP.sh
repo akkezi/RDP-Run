@@ -3,7 +3,7 @@ printf "Installing RDP Be Patience... " >&2
 {
 sudo useradd -m USER
 sudo adduser USER sudo
-echo 'USER:8426' | sudo chpasswd
+echo 'USER:0123' | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
 sudo apt-get update
 sudo apt-get upgrade -y
